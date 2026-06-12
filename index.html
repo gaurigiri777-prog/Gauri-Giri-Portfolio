@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Gauri Giri - Data Analyst and Aspiring Data Scientist. Showcasing skills in Python, SQL, and Data Visualization.">
+    <title>Gauri Giri | Data Analyst & Aspiring Data Scientist</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo gradient-text">GAURI GIRI</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="btn-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-image-wrapper">
+                    <div class="profile-frame">
+                        <!-- Using actual filename from list_dir -->
+                        <img src="images/profile picture.png" alt="Gauri Giri" class="profile-img">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="gradient-text type-effect">Hello, I'm Gauri Giri</h1>
+                    <h2 class="subtitle">Data Analyst | Aspiring Data Scientist | Business Analytics</h2>
+                    <div class="location-tag">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Ranchi, Jharkhand, India</span>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <!-- Assuming a CV file might exist or using a placeholder link -->
+                        <a href="resume/Gauri_Giri_Data_Analyst_Resume.pdf" class="btn btn-primary" target="_blank"
+                            rel="noopener">View Resume</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Floating Background Elements -->
+            <div class="floating-icon icon-1"><i class="fab fa-python"></i></div>
+            <div class="floating-icon icon-2"><i class="fas fa-database"></i></div>
+            <div class="floating-icon icon-3"><i class="fas fa-chart-bar"></i></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        I am a passionate Data Analyst and aspiring Data Scientist with a strong foundation in Python,
+                        SQL, and Data Visualization.
+                        With over 2 years of experience and a 5-star rating on HackerRank, I love turning raw data into
+                        actionable insights.
+                        My journey involves continuous learning and applying analytical skills to solve real-world
+                        business problems.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fab fa-python stat-icon"></i>
+                        <h3>5★</h3>
+                        <p>HackerRank Python</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-database stat-icon"></i>
+                        <h3>5★</h3>
+                        <p>HackerRank SQL</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-briefcase stat-icon"></i>
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section skills-section contrast-section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title highlight-title">Technical Skills</h2>
+                    <p class="section-subtitle high-contrast-subtitle">
+                        Tools, technologies, and analytics expertise
+                    </p>
+                </div>
+
+                <div class="skills-grid contrast-grid">
+
+                    <!-- Programming & Data Analysis -->
+                    <div class="skills-card solid-card">
+                        <h3 class="skills-category category-accent-blue">
+                            Programming & Data Analysis
+                        </h3>
+                        <div class="skill-tags solid-tags">
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">Pandas</span>
+                            <span class="skill-pill">NumPy</span>
+                            <span class="skill-pill">Matplotlib</span>
+                            <span class="skill-pill">Seaborn</span>
+                            <span class="skill-pill">Data Cleaning</span>
+                            <span class="skill-pill">Data Wrangling</span>
+                            <span class="skill-pill">EDA</span>
+                            <span class="skill-pill">Feature Engineering (Basic)</span>
+                            <span class="skill-pill">Statistical Analysis</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Querying -->
+                    <div class="skills-card solid-card">
+                        <h3 class="skills-category category-accent-purple">
+                            Databases & Querying
+                        </h3>
+                        <div class="skill-tags solid-tags">
+                            <span class="skill-pill">SQL</span>
+                            <span class="skill-pill">Complex SELECTs</span>
+                            <span class="skill-pill">JOINs</span>
+                            <span class="skill-pill">GROUP BY</span>
+                            <span class="skill-pill">HAVING</span>
+                            <span class="skill-pill">Subqueries</span>
+                            <span class="skill-pill">ROW_NUMBER()</span>
+                            <span class="skill-pill">RANK()</span>
+                        </div>
+                    </div>
+
+                    <!-- Business Intelligence -->
+                    <div class="skills-card solid-card">
+                        <h3 class="skills-category category-accent-green">
+                            Business Intelligence & Visualization
+                        </h3>
+                        <div class="skill-tags solid-tags">
+                            <span class="skill-pill">Power BI</span>
+                            <span class="skill-pill">DAX (Basics)</span>
+                            <span class="skill-pill">Data Modeling</span>
+                            <span class="skill-pill">KPI Dashboards</span>
+                            <span class="skill-pill">Tableau</span>
+                            <span class="skill-pill">Calculated Fields</span>
+                            <span class="skill-pill">Interactive Dashboards</span>
+                            <span class="skill-pill">Microsoft Excel</span>
+                            <span class="skill-pill">Power Query</span>
+                            <span class="skill-pill">Pivot Tables</span>
+                            <span class="skill-pill">XLOOKUP</span>
+                            <span class="skill-pill">INDEX-MATCH</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Workflow -->
+                    <div class="skills-card solid-card">
+                        <h3 class="skills-category category-accent-pink">
+                            Tools & Workflow
+                        </h3>
+                        <div class="skill-tags solid-tags">
+                            <span class="skill-pill">Git</span>
+                            <span class="skill-pill">GitHub</span>
+                            <span class="skill-pill">Jupyter Notebook</span>
+                            <span class="skill-pill">Medium Blogging</span>
+                            <span class="skill-pill">Technical Documentation</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">Hands-on analytics exposure across operations, healthcare, and business
+                        domains</p>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- Jaishiv Construction -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card experience-card">
+                            <h3 class="role-title">Digital Operations & Data Support Executive</h3>
+                            <p class="company">Jaishiv Construction Private Limited</p>
+                            <p class="duration">Aug 2022 – Apr 2025</p>
+
+                            <ul class="experience-points responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Managed and processed structured and
+                                    semi-structured datasets related to e-Tendering, e-Auction, and e-Invoicing systems.
+                                </li>
+                                <li><i class="fas fa-check-circle"></i> Performed data validation, accuracy checks, and
+                                    compliance verification to ensure error-free submissions.</li>
+                                <li><i class="fas fa-check-circle"></i> Designed and maintained Excel-based tracking
+                                    reports and dashboards to monitor tender timelines, bid status, and outcomes.</li>
+                                <li><i class="fas fa-check-circle"></i> Analyzed operational data to support decision
+                                    timelines and reporting requirements.</li>
+                                <li><i class="fas fa-check-circle"></i> Organized and maintained digital data
+                                    repositories, improving document retrieval efficiency and audit readiness.</li>
+                                <li><i class="fas fa-check-circle"></i> Collaborated with cross-functional teams using
+                                    online enterprise portals and professional communication tools.</li>
+                            </ul>
+
+                            <div class="analytics-tags">
+                                <span>Operations Analytics</span>
+                                <span>Reporting Automation</span>
+                                <span>Data Quality Management</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital Dot Tech -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card experience-card">
+                            <h3 class="role-title">IT Support Executive – Hospital Operations (Contract)</h3>
+                            <p class="company">Digital Dot Tech, Kolkata</p>
+                            <p class="duration">Aug 2017 – Mar 2020</p>
+
+                            <ul class="experience-points responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Supported Hospital Management Systems (HMS)
+                                    handling patient, billing, and operational datasets.</li>
+                                <li><i class="fas fa-check-circle"></i> Maintained and validated healthcare data to
+                                    ensure consistency and reliability.</li>
+                                <li><i class="fas fa-check-circle"></i> Created Excel reports and basic dashboards for
+                                    hospital management decision-making.</li>
+                                <li><i class="fas fa-check-circle"></i> Assisted in troubleshooting data discrepancies
+                                    and system issues across departments.</li>
+                            </ul>
+
+                            <div class="analytics-tags">
+                                <span>Healthcare Data</span>
+                                <span>Reporting</span>
+                                <span>Data Validation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Internship Section -->
+                <div class="section-header secondary center-text" style="margin-top: 60px;">
+                    <h2 class="section-title">Internship Experience</h2>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- Samsung Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card experience-card">
+                            <h3 class="role-title">Market Research & Analysis Intern</h3>
+                            <p class="company">Samsung Electronics – Ranchi</p>
+                            <p class="duration">Jan 2022 – Mar 2022</p>
+
+                            <ul class="experience-points responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Conducted market research and collected
+                                    structured datasets from multiple sources.</li>
+                                <li><i class="fas fa-check-circle"></i> Performed basic data analysis to identify
+                                    consumer trends and product preferences.</li>
+                                <li><i class="fas fa-check-circle"></i> Prepared analytical summaries and presentations
+                                    for internal stakeholders.</li>
+                            </ul>
+
+                            <div class="analytics-tags">
+                                <span>Market Research</span>
+                                <span>Business Analysis</span>
+                                <span>Data Interpretation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internshala Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card experience-card">
+                            <h3 class="role-title">Data Analytics Intern</h3>
+                            <p class="company">Internshala (Online)</p>
+                            <p class="duration">Apr 2022 – May 2022</p>
+
+                            <ul class="experience-points responsibilities">
+                                <li><i class="fas fa-check-circle"></i> Completed structured analytics-focused training
+                                    modules.</li>
+                                <li><i class="fas fa-check-circle"></i> Applied Excel, SQL, and data interpretation
+                                    techniques to real-world case studies.</li>
+                                <li><i class="fas fa-check-circle"></i> Achieved <strong>90th percentile</strong> in
+                                    final assessment.</li>
+                            </ul>
+
+                            <div class="analytics-tags">
+                                <span>Excel</span>
+                                <span>SQL</span>
+                                <span>Data Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title center-text">Featured Projects</h2>
+                
+                <!-- Project Category Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="python">Python</button>
+                    <button class="filter-btn" data-filter="powerbi">Power BI</button>
+                    <button class="filter-btn" data-filter="tableau">Tableau</button>
+                    <button class="filter-btn" data-filter="excel">Excel</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Breaking Bad Dashboard -->
+                    <article class="project-card show" data-category="tableau">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/5567517d-51e1-4b6b-a062-2426769d0ec7" alt="Breaking Bad Dashboard">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-Breaking-Bad-Tableau-Dashboard-" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Breaking Bad Dashboard</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Tableau</span>
+                                <span class="pill">Cinematic Viz</span>
+                                <span class="pill">Storytelling</span>
+                            </div>
+                            <p>An interactive Tableau dashboard project built on the Breaking Bad web series dataset, designed to provide storytelling-driven insights into episodes, seasons, IMDB ratings, directors, duration, and U.S. viewership trends.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-Breaking-Bad-Tableau-Dashboard-" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Customer Churn Prediction -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/a7da813c-e5be-4d29-bb9e-8783a490ced1" alt="Customer Churn Prediction">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-Customer-Churn-Prediction-Retention-Strategy-" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Customer Churn Prediction</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">Random Forest</span>
+                                <span class="pill">Scikit-Learn</span>
+                            </div>
+                            <p>Customer churn is one of the biggest challenges for subscription-based businesses. In this project, we analyze customer behavior and build machine learning models to predict churn and provide actionable retention strategies.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-Customer-Churn-Prediction-Retention-Strategy-" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Netflix Customer Segmentation -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/7ccddb1f-7f23-4163-b9fc-b53d2d7937ab" alt="Netflix Customer Segmentation">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-Exploratory-Data-Analysis-EDA-on-Netflix-Customer-Segmentation-Analysis" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Netflix Customer Segmentation</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">EDA</span>
+                                <span class="pill">Seaborn</span>
+                            </div>
+                            <p>This project performs an Exploratory Data Analysis (EDA) on Netflix customer data to uncover customer behavior patterns, viewing habits, subscription preferences, and content interests.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-Exploratory-Data-Analysis-EDA-on-Netflix-Customer-Segmentation-Analysis" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Home Credit Default Risk -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/a9a7c3ba-7202-403a-b0bc-5d6f21751845" alt="Home Credit Default Risk">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-Home-Credit-Default-Risk-Prediction-using-Machine-Learning-SHAP-Explainability" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Home Credit Default Risk</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">SHAP</span>
+                                <span class="pill">Explainable AI</span>
+                            </div>
+                            <p>The project focuses not only on prediction accuracy but also on model explainability using SHAP (SHapley Additive Explanations) to understand why the model makes specific decisions.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-Home-Credit-Default-Risk-Prediction-using-Machine-Learning-SHAP-Explainability" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 5: House Price Prediction -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/d4b6aecb-77b6-4fd0-b2c9-b5dd960609a6" alt="House Price Prediction">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-House-Price-Prediction-Complete-Python-Project" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>House Price Prediction</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">Regression</span>
+                                <span class="pill">Scikit-Learn</span>
+                            </div>
+                            <p>California Housing Price Prediction is an end-to-end Machine Learning project that predicts median house values across California using the California Housing Dataset.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-House-Price-Prediction-Complete-Python-Project" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 6: Iris Flower Classification -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/171e4edb-8653-4d7e-9eb8-615c35859786" alt="Iris Flower Classification">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-Iris-Flower-Classification-using-K-Nearest-Neighbors-KNN-" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Iris Flower Classification</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">KNN</span>
+                                <span class="pill">ML Model</span>
+                            </div>
+                            <p>A beginner-friendly Machine Learning project that classifies iris flowers into Setosa, Versicolor, and Virginica using the KNN algorithm.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-Iris-Flower-Classification-using-K-Nearest-Neighbors-KNN-" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 7: Netflix Tableau Dashboard -->
+                    <article class="project-card show" data-category="tableau">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/47c8fe7d-c599-4f12-8471-b37b4e2b9b41" alt="Netflix Tableau Dashboard">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-Netflix-Data-Dashboard-Tableau-Project" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Netflix Tableau Dashboard</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Tableau</span>
+                                <span class="pill">Data Viz</span>
+                                <span class="pill">Genre Trends</span>
+                            </div>
+                            <p>An interactive Netflix Data Analysis Dashboard built using Tableau to explore content trends, genre distribution, country-wise availability, release patterns, ratings, and content type insights.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-Netflix-Data-Dashboard-Tableau-Project" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 8: Spam Email Classifier -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/6b034b3b-0565-4173-87fd-3fe053cd16af" alt="Spam Email Classifier">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-Spam-Email-Classification-using-Scikit-Learn-" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Spam Email Classifier</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">Logistic Regression</span>
+                                <span class="pill">NLP</span>
+                            </div>
+                            <p>A complete end-to-end machine learning project for text classification.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-Spam-Email-Classification-using-Scikit-Learn-" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 9: Tripadvisor Hotel Analytics -->
+                    <article class="project-card show" data-category="tableau">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/bca973a3-93e7-449d-8c65-f37b42b6bee1" alt="Tripadvisor Hotel Analytics">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/-Tripadvisor-Hotel-Analytics-Dashboard-Tableau-Project" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Tripadvisor Hotel Analytics</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Tableau</span>
+                                <span class="pill">Hospitality Analytics</span>
+                                <span class="pill">Geographical</span>
+                            </div>
+                            <p>An interactive Tableau dashboard built using Tripadvisor hotel review data to analyze hotel ratings, room capacity, traveler behavior, service availability, and geographical user distribution.</p>
+                            <a href="https://github.com/gaurigiri777-prog/-Tripadvisor-Hotel-Analytics-Dashboard-Tableau-Project" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 10: AI Chatbot with NLP -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/0d3bc757-5f80-465c-93a2-757e0084ec08" alt="AI Chatbot with NLP">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/AI-CHATBOT-WITH-NLP" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Chatbot with NLP</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">NLTK</span>
+                                <span class="pill">Similarity Match</span>
+                            </div>
+                            <p>A simple NLP-based chatbot built using Python, NLTK, and Machine Learning similarity matching.   This project does not require any external JSON files — all intents are embedded inside the script.</p>
+                            <a href="https://github.com/gaurigiri777-prog/AI-CHATBOT-WITH-NLP" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 11: Breast Cancer Classification -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/0ce3fc00-6a5e-4a12-85c8-a0203b6c3f46" alt="Breast Cancer Classification">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/Breast-Cancer-Classification-using-SVM" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Breast Cancer Classification</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">SVM</span>
+                                <span class="pill">Wisconsin Dataset</span>
+                            </div>
+                            <p>This project builds a Breast Cancer Classification model using Support Vector Machines (SVM) on the Breast Cancer Wisconsin Dataset.</p>
+                            <a href="https://github.com/gaurigiri777-prog/Breast-Cancer-Classification-using-SVM" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 12: Automated PDF Report Generator -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/99801a8b-8e5f-4104-b9fa-33b83f97f304" alt="Automated PDF Report Generator">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/CSV-Data-Analysis-PDF-Report-Generator" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Automated PDF Report Generator</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">ReportLab</span>
+                                <span class="pill">Data Analysis</span>
+                            </div>
+                            <p>A Python project that reads CSV data, performs analysis, creates visualizations, and generates a professional PDF report using ReportLab.</p>
+                            <a href="https://github.com/gaurigiri777-prog/CSV-Data-Analysis-PDF-Report-Generator" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 13: Employee Attrition (Excel) -->
+                    <article class="project-card show" data-category="excel">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/0e2edc62-80d2-4bde-b9b1-318ee5bba2c1" alt="Employee Attrition (Excel)">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/Employee-Attrition-Dashboard-In-Excel" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Employee Attrition (Excel)</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Excel</span>
+                                <span class="pill">HR Dashboard</span>
+                                <span class="pill">Pivot Tables</span>
+                            </div>
+                            <p>Employee Attrition Analysis Dashboard Project</p>
+                            <a href="https://github.com/gaurigiri777-prog/Employee-Attrition-Dashboard-In-Excel" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 14: India Election Results 2024 -->
+                    <article class="project-card show" data-category="powerbi">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/a95c5138-ac42-457c-b861-e5f5d2e6c62b" alt="India Election Results 2024">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/India-General-Election-Results-2024-Dashboard-Power-BI" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>India Election Results 2024</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Power BI</span>
+                                <span class="pill">Lok Sabha Results</span>
+                                <span class="pill">Viz</span>
+                            </div>
+                            <p>he India Election Results 2024 Dashboard is an interactive Power BI solution designed to analyze and visualize the outcomes of the 2024 Lok Sabha Elections across India.</p>
+                            <a href="https://github.com/gaurigiri777-prog/India-General-Election-Results-2024-Dashboard-Power-BI" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 15: KBC Python Game -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/4c8054b1-9fb0-407d-ae1b-c3986c4e88e4" alt="KBC Python Game">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/kbc-python-game" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>KBC Python Game</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">Game Logic</span>
+                                <span class="pill">Interactive</span>
+                            </div>
+                            <p></p>
+                            <a href="https://github.com/gaurigiri777-prog/kbc-python-game" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 16: Sales Segmentation & RFM -->
+                    <article class="project-card show" data-category="powerbi">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/6bbefec5-493b-4eb7-bee7-585b4a79a736" alt="Sales Segmentation & RFM">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/PowerBI-Sales-Segmentation---RFM-Analysis-Dashboard" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Sales Segmentation & RFM</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Power BI</span>
+                                <span class="pill">DAX</span>
+                                <span class="pill">RFM Segmentation</span>
+                            </div>
+                            <p>Interactive Power BI Sales Segmentation Dashboard with Sales Segmentation - RFM  Analysis</p>
+                            <a href="https://github.com/gaurigiri777-prog/PowerBI-Sales-Segmentation---RFM-Analysis-Dashboard" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 17: Real-Time Weather Analysis -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/1efe6b17-241d-453f-8923-9c64f7e9b79a" alt="Real-Time Weather Analysis">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/Real-Time-Weather-Data-Analysis-using-API-Python" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Real-Time Weather Analysis</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">REST API</span>
+                                <span class="pill">Matplotlib</span>
+                            </div>
+                            <p>This project demonstrates how to fetch real-time weather data from a public API and create meaningful visualizations using Python.  It highlights key data analytics skills including:  API Integration  Data Cleaning & Processing  Data Visualization</p>
+                            <a href="https://github.com/gaurigiri777-prog/Real-Time-Weather-Data-Analysis-using-API-Python" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 18: Sleep Health & Lifestyle -->
+                    <article class="project-card show" data-category="excel">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/98cd2cfb-9994-484c-9eb1-bd4cb0f04c68" alt="Sleep Health & Lifestyle">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/sleep-health-lifestyle-excel-dashboard" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Sleep Health & Lifestyle</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Excel</span>
+                                <span class="pill">Health Analytics</span>
+                                <span class="pill">Pivot Charts</span>
+                            </div>
+                            <p>Sleep Health & Lifestyle Dashboard (Excel Project)</p>
+                            <a href="https://github.com/gaurigiri777-prog/sleep-health-lifestyle-excel-dashboard" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 19: Spotify Streaming Analytics -->
+                    <article class="project-card show" data-category="powerbi">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/af20c9ba-6bcd-4b06-91bd-e2b284f4d87e" alt="Spotify Streaming Analytics">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/Spotify-PowerBI-Dashboard" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Spotify Streaming Analytics</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Power BI</span>
+                                <span class="pill">API Data</span>
+                                <span class="pill">Listening Trends</span>
+                            </div>
+                            <p>A clean, modern and interactive dashboard analyzing Spotify streaming patterns, top artists, track features & listening trends.</p>
+                            <a href="https://github.com/gaurigiri777-prog/Spotify-PowerBI-Dashboard" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 20: Credit Card Fraud Detection -->
+                    <article class="project-card show" data-category="python">
+                        <div class="project-image">
+                            <img src="https://github.com/user-attachments/assets/197a2225-663b-436f-9be2-b5fd29b949c7" alt="Credit Card Fraud Detection">
+                            <div class="overlay">
+                                <a href="https://github.com/gaurigiri777-prog/svm-credit-card-fraud-detection" target="_blank" class="btn btn-sm">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Credit Card Fraud Detection</h3>
+                            <div class="tech-stack">
+                                <span class="pill">Python</span>
+                                <span class="pill">SVM</span>
+                                <span class="pill">Scikit-Learn</span>
+                            </div>
+                            <p>Credit Card Fraud Detection using SVM</p>
+                            <a href="https://github.com/gaurigiri777-prog/svm-credit-card-fraud-detection" target="_blank" class="read-link">View on GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-header center-text">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">Strong academic foundation in business analytics and computer
+                        applications</p>
+                </div>
+
+                <div class="education-grid">
+
+                    <!-- MBA -->
+                    <div class="education-card glass-card">
+                        <div class="edu-icon-wrapper">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="degree-title">Master of Business Administration (MBA)</h3>
+                        <p class="specialization">Marketing & Information Technology</p>
+                        <span class="institution">Dr. Shyama Prasad Mukherji University, Ranchi</span>
+                        <span class="score">Score: <strong>82%</strong></span>
+                    </div>
+
+                    <!-- BCA -->
+                    <div class="education-card glass-card">
+                        <div class="edu-icon-wrapper">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3 class="degree-title">Bachelor of Computer Applications (BCA)</h3>
+                        <p class="specialization">Computer Applications</p>
+                        <span class="institution">Ranchi University</span>
+                        <span class="score">Score: <strong>78.83%</strong></span>
+                    </div>
+
+                </div>
+
+                <div class="section-header secondary center-text" style="margin-top: 60px;">
+                    <h2 class="section-title">Certifications</h2>
+                </div>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Python Basic</h3>
+                        <a href="certificates/python_basic certificate.pdf" target="_blank" class="cert-link">View
+                            Certificate</a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>SQL Basic</h3>
+                        <a href="certificates/sql_basic certificate.pdf" target="_blank" class="cert-link">View
+                            Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title center-text">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <a href="mailto:gaurigiri777@gmail.com" class="contact-pill">
+                            <i class="fas fa-envelope"></i> gaurigiri777@gmail.com
+                        </a>
+                        <a href="tel:+918051026610" class="contact-pill">
+                            <i class="fas fa-phone"></i> +91-8051026610
+                        </a>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gauri-giri-47865582" target="_blank"
+                                class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/gaurigiri777-prog" target="_blank" class="social-btn github"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://hackerrank.com/gaurigiri777" target="_blank"
+                                class="social-btn hackerrank"><i class="fab fa-hackerrank"></i></a>
+                            <a href="https://leetcode.com/u/Trc3gmK4fK/" target="_blank" class="social-btn leetcode"><i
+                                    class="fas fa-code"></i></a>
+                            <a href="https://medium.com/@gaurigiri777" target="_blank" class="social-btn medium"><i
+                                    class="fab fa-medium-m"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Optional Contact Form -->
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Gauri Giri. All rights reserved.</p>
+            <p>Made with <i class="fas fa-heart heart-pulse"></i> by Gauri Giri</p>
+        </div>
+    </footer>
+
+    <!-- Project Filtering Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+
+                    const filterValue = btn.getAttribute('data-filter');
+
+                    projectCards.forEach(card => {
+                        const cardCategory = card.getAttribute('data-category');
+                        
+                        if (filterValue === 'all' || cardCategory === filterValue) {
+                            card.classList.remove('hide');
+                            card.classList.add('show');
+                        } else {
+                            card.classList.remove('show');
+                            card.classList.add('hide');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
